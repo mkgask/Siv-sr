@@ -1,0 +1,23 @@
+
+
+
+.figure {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    max-width: 100vw;
+    max-height: 100vh;
+    object-fit: contain;
+    object-position: center;
+}
+
+.image-box {
+    width: 100vw;
+    height: 100vh;
+}

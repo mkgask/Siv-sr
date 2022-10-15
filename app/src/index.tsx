@@ -6,12 +6,13 @@ import Root from "Core/root";
 import { store, history } from "Redux/store/store";
 import "bulma/css/bulma.css";
 
-const container = document.getElementById("app");
-const root = createRoot(container);
+const container = document.getElementById("app")
+const root = createRoot(container)
+
 root.render(
-  <I18nextProvider i18n={i18n}>
-    <Suspense fallback="loading">
-      <Root store={store} history={history}></Root>
-    </Suspense>
-  </I18nextProvider>
-);
+        <I18nextProvider i18n={i18n}>
+            <Suspense fallback="loading">
+                <Root store={store} history={history}></Root>
+            </Suspense>
+        </I18nextProvider>
+)

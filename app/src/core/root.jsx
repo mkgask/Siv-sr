@@ -9,6 +9,7 @@ class Root extends React.Component {
   render() {
     const { store, history } = this.props;
 
+    /*
     return (
       <React.Fragment>
         <Provider store={store}>
@@ -19,6 +20,17 @@ class Root extends React.Component {
         </Provider>
       </React.Fragment>
     );
+    */
+    
+    return (
+        <React.Fragment>
+          <Provider store={store}>
+            <HistoryRouter history={history}>
+              <AppRoutes></AppRoutes>
+            </HistoryRouter>
+          </Provider>
+        </React.Fragment>
+      );
   }
 }
 

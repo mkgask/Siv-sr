@@ -68,12 +68,12 @@
     "i18n",
     "boilerplate"
   ],
-  "author": "reZach",
+  "author": "@mkgask",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/reZach/secure-electron-template/issues"
+    "url": "https://github.com/mkgask/Siv-sr/issues"
   },
-  "homepage": "https://github.com/reZach/secure-electron-template#readme",
+  "homepage": "https://github.com/mkgask/Siv-sr#readme",
   "browserslist": [
     "last 2 Chrome versions"
   ],
@@ -116,7 +116,10 @@
   },
   "dependencies": {
     "@loadable/component": "^5.15.2",
+    "@radix-ui/react-dialog": "^1.0.0",
+    "@radix-ui/react-slot": "^1.0.0",
     "@reduxjs/toolkit": "^1.8.3",
+    "@stitches/react": "^1.2.8",
     "bulma": "^0.9.4",
     "easy-redux-undo": "^1.0.5",
     "electron-devtools-installer": "^3.2.0",
@@ -125,9 +128,12 @@
     "i18next-fs-backend": "^1.1.4",
     "lodash": "4.17.21",
     "lodash.merge": "^4.6.2",
+    "mime": "^3.0.0",
     "process": "^0.11.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-dropzone": "^14.2.2",
+    "react-error-boundary": "^3.1.4",
     "react-i18next": "^11.18.3",
     "react-redux": "^8.0.2",
     "react-router": "^6.3.0",
