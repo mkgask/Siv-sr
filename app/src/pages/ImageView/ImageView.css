@@ -21,3 +21,11 @@
     width: 100vw;
     height: 100vh;
 }
+
+.image-box .over-width {
+    justify-content: flex-start;
+}
+
+.image-box .over-height {
+    align-items: flex-start;
+}
